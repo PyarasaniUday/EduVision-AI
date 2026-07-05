@@ -1,0 +1,71 @@
+[
+  {
+    "career_id": "car_ml_eng",
+    "title": "Machine Learning Engineer",
+    "description": "Designs, builds, and deploys production machine learning models and pipelines.",
+    "demand_level": "High",
+    "average_salary": "$135,000",
+    "required_skills": {
+      "Python": 5,
+      "Machine Learning": 4,
+      "Deep Learning": 4,
+      "SQL": 3,
+      "Cloud Foundations (Vertex AI/GCP)": 3
+    },
+    "recommended_certifications": [
+      "Google Professional Machine Learning Engineer",
+      "TensorFlow Developer Certificate"
+    ],
+    "target_readiness_thresholds": {
+      "aptitude": 80,
+      "technical": 85,
+      "soft_skills": 70
+    }
+  },
+  {
+    "career_id": "car_cloud_arch",
+    "title": "Cloud Solutions Architect",
+    "description": "Designs and orchestrates cloud infrastructure, migration strategies, and serverless application hosting.",
+    "demand_level": "Very High",
+    "average_salary": "$142,000",
+    "required_skills": {
+      "Cloud Architectures (GCP/AWS)": 5,
+      "Terraform / IaC": 4,
+      "Docker & Kubernetes": 4,
+      "Computer Networks": 4,
+      "Python": 3
+    },
+    "recommended_certifications": [
+      "Google Professional Cloud Architect",
+      "Google Associate Cloud Engineer"
+    ],
+    "target_readiness_thresholds": {
+      "aptitude": 85,
+      "technical": 80,
+      "soft_skills": 80
+    }
+  },
+  {
+    "career_id": "car_frontend_dev",
+    "title": "Frontend Software Engineer",
+    "description": "Builds and optimizes interactive, responsive web applications using modern UI libraries.",
+    "demand_level": "High",
+    "average_salary": "$110,000",
+    "required_skills": {
+      "JavaScript/TypeScript": 5,
+      "React/NextJS": 5,
+      "Tailwind CSS": 4,
+      "Git & Version Control": 4,
+      "RESTful API Integration": 4
+    },
+    "recommended_certifications": [
+      "Meta Front-End Developer Professional Certificate",
+      "UX/UI Design Foundations"
+    ],
+    "target_readiness_thresholds": {
+      "aptitude": 75,
+      "technical": 80,
+      "soft_skills": 75
+    }
+  }
+]

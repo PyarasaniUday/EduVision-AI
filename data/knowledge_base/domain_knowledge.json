@@ -1,0 +1,28 @@
+{
+  "learning_domains": {
+    "Artificial Intelligence": {
+      "core_subjects": ["Mathematics for ML", "Python Programming", "Supervised Learning", "Deep Learning Architectures", "MLOps & Model Deployment"],
+      "gcp_tools": ["Vertex AI", "BigQuery ML", "AutoML", "Cloud Run"],
+      "online_resources": [
+        {"title": "Google Cloud Vertex AI Course", "url": "https://www.cloudskillsboost.google/paths/17"},
+        {"title": "Machine Learning Specialization by Coursera", "url": "https://www.coursera.org/specializations/machine-learning-introduction"}
+      ]
+    },
+    "Cloud Computing": {
+      "core_subjects": ["Virtualization Foundations", "Networking & Subnets", "Identity & Access Management (IAM)", "Containers & Microservices", "Infrastructure as Code"],
+      "gcp_tools": ["Compute Engine", "Cloud Run", "Google Kubernetes Engine (GKE)", "Cloud Storage", "Identity-Aware Proxy"],
+      "online_resources": [
+        {"title": "Google Cloud Architect Learning Path", "url": "https://www.cloudskillsboost.google/paths/12"},
+        {"title": "Architecting with Google Compute Engine", "url": "https://www.coursera.org/specializations/gcp-architecture"}
+      ]
+    },
+    "Web Development": {
+      "core_subjects": ["HTML5/CSS3 Semantic Web", "JavaScript ES6+", "Component-Driven Architecture (React)", "State Management", "RESTful API Integration"],
+      "gcp_tools": ["Firebase Hosting", "Cloud Run", "Firebase Functions", "Cloud Storage"],
+      "online_resources": [
+        {"title": "MDN Web Docs", "url": "https://developer.mozilla.org/"},
+        {"title": "React Documentation", "url": "https://react.dev/"}
+      ]
+    }
+  }
+}

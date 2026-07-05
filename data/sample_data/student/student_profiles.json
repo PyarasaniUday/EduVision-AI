@@ -1,0 +1,78 @@
+[
+  {
+    "student_id": "stud_001",
+    "name": "Alex Mercer",
+    "email": "alex.mercer@edu.vision",
+    "academic_details": {
+      "major": "Computer Science",
+      "gpa": 3.8,
+      "year_of_study": 3,
+      "completed_courses": [
+        "Data Structures & Algorithms",
+        "Introduction to Database Systems",
+        "Linear Algebra",
+        "Software Engineering Principles"
+      ]
+    },
+    "skills": {
+      "Python": 4,
+      "SQL": 3,
+      "React": 2,
+      "Git": 3,
+      "Data Communication": 2
+    },
+    "interests": [
+      "Machine Learning",
+      "Data Analysis",
+      "Full-Stack Development"
+    ],
+    "career_goals": [
+      "Data Scientist",
+      "Machine Learning Engineer"
+    ],
+    "assessments": {
+      "aptitude_score": 85,
+      "technical_score": 82,
+      "soft_skills_score": 78
+    },
+    "resume_url": "gs://eduvision-resumes/stud_001/resume.pdf"
+  },
+  {
+    "student_id": "stud_002",
+    "name": "Sarah Connor",
+    "email": "sarah.connor@edu.vision",
+    "academic_details": {
+      "major": "Information Technology",
+      "gpa": 3.4,
+      "year_of_study": 4,
+      "completed_courses": [
+        "Web Technologies",
+        "Operating Systems",
+        "Computer Networks",
+        "Cloud Foundations"
+      ]
+    },
+    "skills": {
+      "JavaScript": 4,
+      "React": 4,
+      "NodeJS": 3,
+      "CSS/Tailwind": 4,
+      "Docker": 1
+    },
+    "interests": [
+      "Frontend Development",
+      "Cloud Solutions",
+      "Cybersecurity"
+    ],
+    "career_goals": [
+      "Frontend Developer",
+      "Cloud Solutions Architect"
+    ],
+    "assessments": {
+      "aptitude_score": 78,
+      "technical_score": 88,
+      "soft_skills_score": 85
+    },
+    "resume_url": "gs://eduvision-resumes/stud_002/resume.pdf"
+  }
+]

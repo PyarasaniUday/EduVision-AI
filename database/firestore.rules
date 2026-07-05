@@ -1,0 +1,43 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check if the user is accessing their own data
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    // Rules for Student Profiles
+    match /students/{studentId} {
+      allow read, update, delete: if isAuthenticated() && isOwner(studentId);
+      allow create: if isAuthenticated();
+    }
+    
+    // Rules for Roadmaps and Analyses sub-collections
+    match /students/{studentId}/roadmaps/{roadmapId} {
+      allow read, write: if isAuthenticated() && isOwner(studentId);
+    }
+    
+    match /students/{studentId}/analyses/{analysisId} {
+      allow read, write: if isAuthenticated() && isOwner(studentId);
+    }
+    
+    // Rules for general Careers Catalog
+    match /careers/{careerId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Only admin service accounts can edit catalog data
+    }
+    
+    // Rules for Domain Knowledge base
+    match /knowledge_base/{documentId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+  }
+}
