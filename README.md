@@ -1,5 +1,5 @@
 # EduVision AI - AI-Powered Decision Intelligence Platform for Education & Lifelong Learning
-https://jumpshare.com/s/6LHlKuNkF2t8L7VaxB4H
+[DEMO - Click here](https://drive.google.com/file/d/1NuO_IKv2XuITVJqi_adQhezdCv_aVRdY/view?usp=sharing)
 
 EduVision AI is a production-ready, enterprise-grade Decision Intelligence Platform designed to help students, teachers, placement officers, and educational institutions make personalized academic, learning, and career decisions. Unlike simple conversational chatbots, EduVision AI leverages advanced decision intelligence engines powered by Google Cloud Vertex AI & Gemini APIs, backed by structured datasets and modern databases to deliver actionable recommendations.
 
